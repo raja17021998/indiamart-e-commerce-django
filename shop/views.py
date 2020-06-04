@@ -6,7 +6,7 @@ def index(request):
     return render(request,"shop/index.html")
 
 def contact(request):
-    pass
+    return render(request,"shop/contact.html")
 
 
 def about(request):
@@ -15,7 +15,7 @@ def tracker(request):
     pass 
 def search(request):
     pass 
-def prodView(request):
+def productView(request):
     pass
 def checkout(request):
     pass
